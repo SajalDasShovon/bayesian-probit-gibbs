@@ -22,11 +22,6 @@ Z_i = x_i'β + ε_i,   ε_i ~ N(0, σ²)
 - Posterior estimation of parameters
 - Computation of P(β₁ > 0 | Y)
 
-## How to Run
-1. Open R or RStudio
-2. Run `gibbs_probit.R`
-3. Adjust N and parameters if needed
-
 ## Results
 The model estimates posterior distributions for β and σ² and evaluates the probability that β₁ > 0.
 
